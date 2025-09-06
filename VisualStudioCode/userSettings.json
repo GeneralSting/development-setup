@@ -1,0 +1,173 @@
+{
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.editor.showTabs": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 16,
+  "workbench.startupEditor": "none",
+  "workbench.settings.applyToAllProfiles": ["glassit-linux.opacity"],
+  "workbench.editor.limit.enabled": true,
+  "workbench.activityBar.location": "bottom",
+  "workbench.editor.limit.value": 7,
+  "workbench.list.smoothScrolling": true,
+  "workbench.colorCustomizations": {
+    "[One Dark Pro Darker]": {
+      "editorSuggestWidget.selectedBackground": "#517735",
+      "sideBar.background": "#21242c",
+      "quickInput.background": "#21242c",
+      "quickInputList.focusForeground": "#98C379"
+    },
+    "editorCursor.background": "#000"
+  },
+
+  "files.autoSave": "onFocusChange",
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.decorations.badges": false,
+  "window.titleBarStyle": "custom",
+  "explorer.confirmPasteNative": false,
+
+  "editor.minimap.enabled": false,
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "smooth",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.8,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 4,
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.lineNumbers": "on",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  "update.mode": "none",
+  "workbench.statusBar.visible": false,
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "workbench.navigationControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "breadcrumbs.enabled": false,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+
+  "extensions.ignoreRecommendations": true,
+
+  "eslint.probe": [
+    "astro",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "mdx",
+    "vue",
+    "markdown",
+    "json",
+    "jsonc",
+    "react",
+    "jsx"
+  ],
+  "eslint.lintTask.enable": true,
+
+  "material-icon-theme.hidesExplorerArrows": true,
+
+  "custom-ui-style.stylesheet": {
+    ".notification-toast": "box-shadow: none !important",
+    ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+    ".quick-input-widget": "top: 25vh !important",
+    ".quick-input-list .scrollbar": "display: none",
+    ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+    ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+    ".quick-input-titlebar": "background: #100B15 !important",
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+    ".monaco-scrollable-element > .shadow.top": "display: none",
+    ".sidebar .title-label": "padding: 0 !important",
+    ".sidebar": "border: none !important",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    ".monaco-list-row.focused": "outline: none !important",
+    ".monaco-editor .scroll-decoration": "display: none",
+    ".title-actions": "display: none !important",
+    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+    ".title .monaco-icon-label.file-icon": "margin: 0 60px",
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #98C379 10%, #7DB356cc 100%)"
+  },
+
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text-and-comment",
+    "foreground": "#abb2bf",
+    "opacity": 50,
+    "iconColour": "#abb2bf"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "BUG": {
+      "icon": "bug",
+      "foreground": "#e5c07b",
+      "iconColour": "#e5c07b"
+    },
+    "TODO": {
+      "icon": "checklist",
+      "iconColour": "#98c379",
+      "foreground": "#98c379"
+    },
+    "ERROR": {
+      "icon": "circle-slash",
+      "iconColour": "#e06c75",
+      "foreground": "#e06c75"
+    },
+    "FIXME": {
+      "icon": "tools",
+      "iconColour": "#61afef",
+      "foreground": "#61afef"
+    },
+    "XXX": {
+      "icon": "bell"
+    },
+    "[ ]": {
+      "icon": "issue-draft",
+      "iconColour": "#c678dd",
+      "foreground": "#c678dd"
+    },
+    "[x]": {
+      "icon": "issue-closed",
+      "iconColour": "#56b6c2",
+      "foreground": "#56b6c2"
+    },
+    "CODE": {
+      "icon": "code"
+    }
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "ERROR",
+    "CODE"
+  ],
+
+  "glassit.alpha": 250
+}
