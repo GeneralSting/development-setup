@@ -10,9 +10,9 @@
   "workbench.startupEditor": "none",
   "workbench.settings.applyToAllProfiles": ["glassit-linux.opacity"],
   "workbench.editor.limit.enabled": true,
-  "workbench.activityBar.location": "bottom",
   "workbench.editor.limit.value": 7,
   "workbench.list.smoothScrolling": true,
+  "workbench.activityBar.location": "hidden",
   "workbench.colorCustomizations": {
     "[One Dark Pro Darker]": {
       "editorSuggestWidget.selectedBackground": "#517735",
@@ -47,6 +47,10 @@
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "editor.smoothScrolling": true,
+  "editor.glyphMargin": false,
+  "editor.showFoldingControls": "never",
+  "editor.stickyScroll.enabled": false,
 
   "update.mode": "none",
   "workbench.statusBar.visible": false,
@@ -56,6 +60,9 @@
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.layoutControl.enabled": false,
   "chat.commandCenter.enabled": false,
+
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.smoothScrolling": true,
 
   "security.workspace.trust.untrustedFiles": "open",
 
@@ -95,21 +102,21 @@
     ".quick-input-widget.show-file-icons": "box-shadow: none !important",
     ".quick-input-widget": "top: 25vh !important",
     ".quick-input-list .scrollbar": "display: none",
-    ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
-    ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
     ".quick-input-titlebar": "background: #100B15 !important",
+    ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
     ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
     ".monaco-scrollable-element > .shadow.top": "display: none",
-    ".sidebar .title-label": "padding: 0 !important",
-    ".sidebar": "border: none !important",
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #98C379 10%, #7DB356cc 100%)",
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
     ".monaco-list-row.focused": "outline: none !important",
     ".monaco-editor .scroll-decoration": "display: none",
+    ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+    ".sidebar .title-label": "padding: 0 !important",
+    ".sidebar": "border: none !important",
     ".title-actions": "display: none !important",
     ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
-    ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
-    ".title .monaco-icon-label.file-icon": "margin: 0 60px",
-    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #98C379 10%, #7DB356cc 100%)"
+    ".title .monaco-icon-label.file-icon": "margin: 0 60px"
   },
 
   "todo-tree.highlights.defaultHighlight": {
